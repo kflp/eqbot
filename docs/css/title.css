@@ -1,0 +1,36 @@
+.title-container {
+	font-family: 'Raleway', sans-serif;
+	overflow: hidden;
+	position: relative;
+	margin: 150px;
+	padding: 75px;
+}
+
+.title-container h1.title {
+	font-weight: 400;
+	font-size: 75px;
+	text-align: left;
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+
+.title-container h1.subtitle {
+	font-weight: 200;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 400px;
+}
+
+.title-image {
+	background-color: red;
+	top: 0;
+	left: 0;
+	height: 100%;
+	position: absolute;
+}
+
+.title-image img.logo {
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
